@@ -10,13 +10,13 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import IconButton from "@mui/material/IconButton";
 import { useNavigate } from "react-router-dom";
 import { New_industriesService } from "../generated";
-import type { New_industriesModel } from "../generated/models/New_industriesModel";
+import type { New_industries} from "../generated/models/New_industriesModel";
 import { useEffect, useState } from "react";
 import { dataSourcesInfo } from "../../.power/schemas/appschemas/dataSourcesInfo";
 
 const AddCustomer = () => {
   const navigate = useNavigate();
-  const [Industry, setIndustry] = useState<New_industriesModel[]>([]);
+  const [Industry, setIndustry] = useState<New_industries[]>([]);
 
   useEffect(() => {
     New_industriesService.getAll().then((res) => {
@@ -75,7 +75,7 @@ const AddCustomer = () => {
 
 
 
-        <Button onClick={()=>{console.log(dataSourcesInfo)}}>Test values</Button>
+        <Button onClick={()=>{console.log(Industry)}}>Test values</Button>
       </Grid>
     </>
   );

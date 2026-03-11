@@ -29,8 +29,7 @@
         },
         "customers": {
           "entitySetName": "new_customerses",
-          "logicalName": "new_customers",
-          "isHidden": false
+          "logicalName": "new_customers"
         },
         "geographicalcountries": {
           "entitySetName": "new_geographicalcountrieses",
@@ -49,8 +48,7 @@
         },
         "industries": {
           "entitySetName": "new_industries",
-          "logicalName": "new_industry",
-          "isHidden": false
+          "logicalName": "new_industry"
         },
         "lead_qualifications": {
           "entitySetName": "new_lead_qualifications",
@@ -115,5 +113,6 @@
       },
       "actions": null
     }
-  }
+  },
+  "version": "1.0"
 }
