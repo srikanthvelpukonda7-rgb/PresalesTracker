@@ -1,0 +1,119 @@
+{
+  "appId": "ed16bc48-627e-4d66-bb21-a419c2dcee23",
+  "appDisplayName": "Presales Tracker",
+  "description": null,
+  "environmentId": "2ab905ea-3458-e398-ba6f-1df689aae7dd",
+  "buildPath": "dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {
+    "b68501f8-f1bf-4656-ac37-89c61b73bc7f": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "databaseDetails": null,
+      "dataSources": {
+        "customercontacts": {
+          "entitySetName": "new_customercontacts",
+          "logicalName": "new_customercontact",
+          "isHidden": false
+        },
+        "customers": {
+          "entitySetName": "new_customerses",
+          "logicalName": "new_customers",
+          "isHidden": false
+        },
+        "geographicalcountries": {
+          "entitySetName": "new_geographicalcountrieses",
+          "logicalName": "new_geographicalcountries",
+          "isHidden": false
+        },
+        "geographicalregions": {
+          "entitySetName": "new_geographicalregions",
+          "logicalName": "new_geographicalregion",
+          "isHidden": false
+        },
+        "geographicalstates": {
+          "entitySetName": "new_geographicalstateses",
+          "logicalName": "new_geographicalstates",
+          "isHidden": false
+        },
+        "industries": {
+          "entitySetName": "new_industries",
+          "logicalName": "new_industry",
+          "isHidden": false
+        },
+        "lead_qualifications": {
+          "entitySetName": "new_lead_qualifications",
+          "logicalName": "new_lead_qualification",
+          "isHidden": false
+        },
+        "leadsources": {
+          "entitySetName": "new_leadsources",
+          "logicalName": "new_leadsource",
+          "isHidden": false
+        },
+        "opportunities": {
+          "entitySetName": "new_opportunitieses",
+          "logicalName": "new_opportunities",
+          "isHidden": false
+        },
+        "opportunities_types": {
+          "entitySetName": "new_opportunities_typeses",
+          "logicalName": "new_opportunities_types",
+          "isHidden": false
+        },
+        "opportunity_trackers": {
+          "entitySetName": "new_opportunity_trackers",
+          "logicalName": "new_opportunity_tracker",
+          "isHidden": false
+        },
+        "opportunityassignedtos": {
+          "entitySetName": "new_opportunityassignedtos",
+          "logicalName": "new_opportunityassignedto",
+          "isHidden": false
+        },
+        "presalesprivileges": {
+          "entitySetName": "new_presalesprivilegeses",
+          "logicalName": "new_presalesprivileges",
+          "isHidden": false
+        },
+        "regioncountrystatecityphonecodes": {
+          "entitySetName": "cr7fd_regioncountrystatecityphonecodes",
+          "logicalName": "cr7fd_regioncountrystatecityphonecode",
+          "isHidden": false
+        },
+        "segmentations": {
+          "entitySetName": "new_segmentations",
+          "logicalName": "new_segmentation",
+          "isHidden": false
+        },
+        "services": {
+          "entitySetName": "new_serviceses",
+          "logicalName": "new_services",
+          "isHidden": false
+        },
+        "services_subcategories": {
+          "entitySetName": "new_services_subcategories",
+          "logicalName": "new_services_subcategory",
+          "isHidden": false
+        },
+        "users": {
+          "entitySetName": "systemusers",
+          "logicalName": "systemuser",
+          "isHidden": false
+        }
+      },
+      "actions": null
+    }
+  }
+}
