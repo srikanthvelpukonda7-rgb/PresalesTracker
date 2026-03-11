@@ -101,7 +101,7 @@ import Loader from "./Loader";
 import type { New_customerses } from "../generated/models/New_customersesModel";
 import { New_customersesService } from "../generated/services/New_customersesService";
 
-const CustomersPage = () => {
+const CustomersPage = ( ) => { 
   const [customers, setCustomers] = useState<New_customerses[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const navigate = useNavigate();
