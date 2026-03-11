@@ -37,7 +37,7 @@ const AddCustomer = () => {
         <Grid size={4}>
           <Grid>
             <Typography variant="h6" gutterBottom>
-              Add New Customer
+              Customer Name / Agency details
             </Typography>
           </Grid>
           <Grid>
@@ -60,6 +60,12 @@ const AddCustomer = () => {
               renderInput={(params) => <TextField {...params} label="select industry"/>}
             ></Autocomplete>
           </Grid>
+
+                
+
+
+
+
         </Grid>
 
         <Grid size={4}>
