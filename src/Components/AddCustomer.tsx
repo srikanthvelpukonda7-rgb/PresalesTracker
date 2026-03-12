@@ -67,7 +67,6 @@ const AddCustomer = () => {
 
 
         </Grid>
-
         <Grid size={4}>
           <Grid>
             <Typography variant="h6" component="h1" gutterBottom>
